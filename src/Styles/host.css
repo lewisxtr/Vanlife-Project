@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.host__links {
+    display: flex;
+    width: 90%;
+    margin: 1rem auto 0;
+    gap: 3rem;
+}
+
+.host__links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.host__links a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Vans page */
+
+.host__vans-container {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.host__vans-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.host__vans-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.host__van-card>a {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    gap: 1.2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.host__van-card img {
+    width: 15%;
+}
+
+.host__van-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 300;
+}
+
+/* Individual vans details */
+
+.host__detail-container {
+    width: 90%;
+    margin: 2.5rem auto;
+}
+
+.host__detail-container > a {
+    color: #000;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+
+.host__detail-container > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.host__detail-card {
+    margin: 2rem auto;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+
+
+.host__detail-header {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.host__detail-header>img {
+    width: 35%;
+}
+
+.type-host {
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 0.8rem;
+    color: #FFEAD0;
+    border-radius: 5px;
+    margin: 1rem 0 0.75rem;
+}
+
+.host__detail-description p {
+    font-weight: 700;
+    margin-top: 0.4rem;
+}
+
+.host__detail-description span {
+    font-weight: 300;
+}
+
+.host__detail-nav {
+    margin: 1.2rem 0 1.5rem;
+}
+
+.host__detail-nav > a {
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 2rem;
+
+}
+
+.van__info-para, .van__info-para-type {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+
+}
+
+.van__info-para>span, .van__info-para-type>span {
+    font-weight: 700;
+}
+
+.van__info-para-type {
+    text-transform: capitalize;
+}
+
+.van__info-pricing {
+    font-size: 1.5rem;
+    margin: 2rem 1rem;
+}
+
+.van__info-pricing > span {
+    font-weight: 300;
+}
+
+.van__info-img {
+    width: 75px;
+    border-radius: 5px;
+}
